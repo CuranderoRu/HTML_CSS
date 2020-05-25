@@ -1,0 +1,226 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+
+}
+
+.header img {
+    padding-left: 5px;
+
+}
+
+
+.mainmenu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 40px;
+    padding-right: 10px;
+}
+
+
+.mainmenu li {
+    font-size: 1em;
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.header3_details {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.detailed_description p:first-letter {
+    font-family: "Times New Roman", Times, serif;
+    color: #f36;
+    font-size: 190%;
+    font-weight: bold;
+}
+
+
+.characteristics_list {
+    color: #0F121F;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    list-style-image: url("../img/list_item.png");
+}
+
+.tec_characteristics {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.tec_characteristics tr:first-child {
+    height: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+.tec_characteristics td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    padding-left: 3px;
+}
+
+
+.formcontainer {
+    max-width: 27em;
+    margin: 1 auto;
+    padding: 1.2em;
+}
+
+/* Базовые стили формы */
+
+form {
+    padding: 2px;
+    box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, .45);
+    background: D6D6D6;
+    border-radius: 8px;
+}
+
+/* Стили полей ввода */
+
+.textbox {
+    width: 100%;
+    height: 1.5em;
+    background: #FDFCFC;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+.textbox:active {
+    color: burlywood;
+}
+
+.message:focus {
+    outline: none;
+    border: #1E99F1 2px solid;
+    color: #11446A;
+}
+
+/* Стили текстового поля */
+
+.message {
+    background: #FDFCFC;
+    width: 100%;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    display: block;
+    padding: 2px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+/* Базовые стили кнопки */
+
+.button {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, .3) 0px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #6E6E6E;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    transition: background .4s;
+    cursor: pointer;
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border: #47BA2C 2px solid;
+    color: #325729;
+
+}
+
+/* Изменение фона кнопки при наведении */
+
+.button:hover {
+    background: #80b438;
+}
+
+.good_image img {
+    border: #000000 2px solid;
+    width: 200px;
+
+}
+
+.good_image a img:hover {
+    border: 2px solid transparent;
+}
+
+.footer {
+    height: 50px;
+    background-color: #EDEDED;
+    text-align: right;
+    padding-top: 1px;
+    padding-right: 10px;
+}
+
+.buy_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buy_info{
+    width: 300px;
+    padding-right: 400px;
+}
+
+.form_buy {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.form_buy fieldset{
+    border-style: none;
+}
+
+
+.button_buy:hover{
+    background: #80b438;
+}
+
+.items_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
