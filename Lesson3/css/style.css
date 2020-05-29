@@ -114,9 +114,11 @@ form {
 .textbox {
     width: 100%;
     height: 1.5em;
-    background: #FDFCFC;
+    background: #ffffff;
     border-radius: 3px;
     text-transform: capitalize;
+    color:darkolivegreen;
+    font-size: 12px;
 }
 
 .textbox:active {
@@ -177,13 +179,15 @@ input[type="email"]:focus {
 }
 
 .good_image img {
-    border: #000000 2px solid;
+    /*border: #000000 2px solid;*/
+    outline: 2px solid #000000;
     width: 200px;
 
 }
 
 .good_image a img:hover {
-    border: 2px solid transparent;
+    /*border: 2px solid transparent;*/
+    outline: inherit;
 }
 
 .footer {
