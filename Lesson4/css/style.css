@@ -79,10 +79,12 @@ body {
     list-style-image: url("../img/list_item.png");
 }
 
+
 .tec_characteristics {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     border-collapse: collapse;
 }
+
 
 .tec_characteristics tr:first-child {
     height: 40px;
@@ -90,17 +92,11 @@ body {
     font-weight: 700;
 }
 
-.tec_characteristics td {
-    visibility: hidden;
-}
-
-
 .tec_characteristics td:nth-child(1), .tec_characteristics td:nth-child(2) {
     border: 1px solid #000;
     border-collapse: collapse;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     padding-left: 3px;
-    visibility: visible;
 }
 
 
