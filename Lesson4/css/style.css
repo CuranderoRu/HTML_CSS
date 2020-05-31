@@ -36,6 +36,11 @@ body {
     padding-left: 10px;
 }
 
+.mainmenu li a:hover {
+    color: #0c3d8b;
+}
+
+
 .header3_details {
     color: #000000;
     font-size: 18px;
@@ -85,12 +90,17 @@ body {
     font-weight: 700;
 }
 
-
 .tec_characteristics td {
+    visibility: hidden;
+}
+
+
+.tec_characteristics td:nth-child(1), .tec_characteristics td:nth-child(2) {
     border: 1px solid #000;
     border-collapse: collapse;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     padding-left: 3px;
+    visibility: visible;
 }
 
 
@@ -123,6 +133,7 @@ form {
 
 .textbox:active {
     color: burlywood;
+
 }
 
 .message:focus {
@@ -169,6 +180,7 @@ input[type="email"]:focus {
     outline: none;
     border: #47BA2C 2px solid;
     color: #325729;
+    background-color: aquamarine;
 
 }
 
