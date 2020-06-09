@@ -4,31 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Interior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="slider_img">
-            <div class="header">
+        <div class="slider padding-site">
+            <div class="header clearfix">
                 <a class="logo" href="#">
-                    <img src="img/logo.png" alt="logo">
+                    <img src="img/logo.svg" alt="logo">
                 </a>
-                <ul class="menu">
-                    <li><a class="active-link" href="#">HOME</a></li>
-                    <li><a href="#">PRODUCTS</a></li>
-                    <li><a href="#">HISTORY</a></li>
-                    <li><a href="#">SHOWROOM</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                <ul class="menu clearfix">
+                    <li class="menu-list"><a href="#" class="menu-link menu-active-link">HOME</a></li>
+                    <li class="menu-list"><a href="#" class="menu-link">PRODUCTS</a></li>
+                    <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li>
+                    <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li>
+                    <li class="menu-list"><a href="#" class="menu-link">CONTACT</a></li>
+                    <li class="menu-list"><img src="./img/search.svg" alt="search" class="search-btn"></li>
                 </ul>
             </div>
-            <div class="box-text">
-                <h3>TRENDING</h3>
-                <h2>Fishnet Chair</h2>
-                <p>Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black or highly polished chrome.</p>
-                <a href="#">Order Us</a>
+            <div class="slider-text">
+                <p class="slider-trending">TRENDING</p>
+                <h2 class="slider-h2">Fishnet Chair</h2>
+                <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black or highly polished chrome.</p>
+                <a href="#" class="button">Order Us <img src="./img/arrow.svg" alt="Order Us"></a>
             </div>
-            <div class="circle"></div>
+            <div class="pagination">
+                <a href="" class="circle"></a><a href="" class="circle circle-active"></a><a href="" class="circle"></a>
+            </div>
+        </div>
+        <div class="featured padding-site">
+            <div class="featured-header">
+                <ul class="featured-pages">
+                    <li class="featured-page">Featured</li>
+                    <li class="featured-page">New</li>
+                </ul>
+                <a href="#" class="featured-explore"> explore all <img src="./img/arrow.svg"></a>
+            </div>
+            <div class="featured-items"></div>
+            <a href="#" class="featured-item featured-item-1">
+                <div class="round-button"><img src="./img/arrow.svg"></div>
+                <div class="featured-name">Fishnet Chair</div>
+                <div class="featured-details">Seat and back with upholstery made of cold cure foam
+                    . Steel frame, available in matt powder-coated black
+                    or highly polished chrome.</div>
+            </a>
+            <a href="#" class="featured-item featured-item-2"></a>
+            <a href="#" class="featured-item featured-item-3"></a>
+            <a href="#" class="featured-item featured-item-4"></a>
         </div>
         <div class="footer">
             <div class="footer_section_1">Contact Us
@@ -64,6 +88,4 @@
         </div>
 
     </div>
-</body>
-
-</html>
+</body></html>
