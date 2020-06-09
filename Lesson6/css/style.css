@@ -159,14 +159,131 @@ body {
     display: block;
 }
 
-.featured-page {
+.featured-header {
+    margin-bottom: 50px;
+}
+
+.tab-controll {
+    display: block;
+}
+
+.featured-tab {
     list-style-type: none;
     float: left;
 }
 
-.featured-explore {
-    float: right;
+.featured-tab-link {
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(108, 108, 108);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    padding: 0 12px 0 0;
 }
+
+.featured-tab-link-active {
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    border-bottom: 3px solid #212121;
+}
+
+.featured-tab-link:hover {
+    color: rgb(33, 33, 33);
+    border-bottom: 1px solid #212121;
+}
+
+.btn-ghost {
+    float: right;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(108, 108, 108);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding-top: 11px;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-between
+}
+
+.featured-item {
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    margin-top: 0;
+}
+
+.featured-item:hover .featured-item-hover {
+    opacity: 1;
+}
+
+.featured-item:hover .featured-item-image {
+    opacity: 0.1;
+}
+
+.featured-item-image {
+    transition-property: opacity;
+    transition: 1s;
+}
+
+.featured-item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-property: opacity;
+    transition: .5s;
+}
+
+.round-button {
+    display: inline-block;
+    margin-top: 62px;
+    margin-left: 111px;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    color: #212121;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.featured-name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    line-height: 1.364;
+}
+
+.featured-details {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    line-height: 1.571;
+    -moz-transform: matrix(1, 0, 0, 0.9959102244389, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 0.9959102244389, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 0.9959102244389, 0, 0);
+}
+
+
 
 .footer {
     display: flex;
