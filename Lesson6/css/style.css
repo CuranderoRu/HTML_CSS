@@ -334,9 +334,82 @@ body {
 
 }
 
-.promo-text .button{
+.promo-text .button {
     margin-top: 31px;
 }
+
+.trending{
+    display:block;
+}
+
+.trending-title{
+    margin-top: 120px;
+    position: relative;
+}
+
+.trending-title .btn-ghost{
+    position: absolute;
+    padding-top: 0;
+    top: 11px;
+    left: 1003px;
+}
+
+
+.trending-title-h3 {
+    font-size: 36px;
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.trending-products {
+    margin-top: 59px;
+}
+
+.trending-products a{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+
+.hot-deals-text {
+    margin-top: 283px;
+}
+
+.hot-deals-name {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 1.8px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.hot-deals-h2 {
+    color: #212121;
+    font-size: 59px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 43px;
+    text-align: left;
+    z-index: 152;
+
+}
+
+
+.hot-deals-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
 
 
 .footer {
