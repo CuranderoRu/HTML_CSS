@@ -376,11 +376,15 @@ body {
 
 .hot-deals {
     background-image: url(../img/hot-deals-slider.jpg);
-
+    height: 800px;
+    position: relative;
+    margin-top: 120px;
 }
 
 .hot-deals-text {
-    margin-top: 283px;
+    position: absolute;
+    top: 286px;
+
 }
 
 .hot-deals-name {
@@ -415,7 +419,102 @@ body {
     line-height: 24px;
 }
 
+.exclusive {
+    margin-top: 120px;
+}
 
+.exclusive-product {
+    background-image: url(../img/product-1-lg.jpg);
+    width: 570px;
+    height: 570px;
+    display: inline-block;
+}
+
+.exclusive-product .promo-exclusive {
+    margin-top: 185px;
+    display: block;
+    padding-left: 30px;
+}
+
+
+.exclusive-product .promo-name {
+    margin-top: 32px;
+    padding-left: 30px;
+}
+
+.exclusive-product .promo-details {
+    margin-top: 13px;
+    padding-left: 30px;
+}
+
+.exclusive-product .button {
+    margin-top: 31px;
+    margin-left: 30px;
+}
+
+
+.exclusive-box {
+    width: 570px;
+    height: 570px;
+    float: right;
+
+}
+
+.exclusive-box .exclusive-product-sm:nth-child(1) {
+
+    margin-right: 30px;
+}
+
+
+.exclusive-box .exclusive-product-sm:nth-child(3) {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+.exclusive-product-sm {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+}
+
+.mobile-app {
+    height: 516px;
+    background-image: url(../img/mobile-app-back.jpg);
+    margin-top: 120px;
+}
+
+.mobile-app-tag {
+    font-size: 18px;
+    color: #6c6c6c;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.667;
+    text-align: left;
+    padding-top: 124px;
+}
+
+.mobile-app-name {
+    font-size: 62px;
+    color: rgb(33, 33, 33);
+    text-transform: uppercase;
+    line-height: 1.161;
+    text-align: left;
+    width: 490px;
+}
+
+.mobile-app-details {
+    padding-top: 30px;
+}
+
+.mobile-app-buttons {
+    padding-top: 36px;
+}
+
+.store-button {
+    display: inline;
+    margin-left: 10px;
+}
 
 .footer {
     display: flex;
