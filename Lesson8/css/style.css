@@ -79,6 +79,7 @@ body {
 .menu-link:hover {
     color: #212121;
     border-bottom: 1px solid #212121;
+    text-decoration: none;
 }
 
 .search-btn {
