@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
 
+@font-face {
+    font-family: 'Myriad Pro Italic';
+    src: url('../webfonts/MyriadPro-It.eot');
+    src: url('../webfonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-It.woff') format('woff'),
+        url('../webfonts/MyriadPro-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../webfonts/MyriadPro-Bold.eot');
+    src: url('../webfonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/MyriadPro-Bold.woff') format('woff'),
+        url('../webfonts/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +53,7 @@ body {
 
 .header {
     padding-top: 63px;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
 }
 
 .menu {
@@ -736,7 +756,7 @@ body {
     text-decoration: none;
 }
 
-.custom-container .container{
+.custom-container .container {
     margin-top: 30px;
     margin-left: 0px;
     margin-right: 0px;
@@ -744,7 +764,7 @@ body {
     padding-right: 0px;
 }
 
-.product-set{
+.product-set {
     margin-top: 59px;
     margin-left: 98px;
     margin-right: 98px;
@@ -767,7 +787,7 @@ body {
     padding-right: 0px;
 }
 
-.product-promo{
+.product-promo {
     margin-top: 240px;
 }
 
@@ -790,7 +810,7 @@ body {
     margin-left: 157px;
 }
 
-.footer-networks a{
+.footer-networks a {
     font-size: 22px;
     text-decoration: none;
     color: #6c6c6c;
@@ -810,4 +830,179 @@ body {
     font-weight: 700;
     letter-spacing: 1.4px;
     border-bottom: 3px solid #212121;
+}
+
+.product-details-header {
+    background-color: white;
+}
+
+.product-details {
+    width: 1366px;
+    margin-top: 29px;
+    position: relative;
+}
+
+.product-details-tab-control {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+
+.product-details-tab-menu-list {
+    list-style-type: none;
+    float: left;
+    padding-left: 18px;
+    padding-bottom: 13px;
+}
+
+.product-details-tab-menu-list:nth-child(1) {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.product-details-tab-menu-list:nth-child(n+3) {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+
+
+.product-details-tab-menu-link {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+}
+
+.product-details-tab-menu-link:nth-child(1) {
+    padding-left: 5px;
+    margin-left: 0px;
+}
+
+
+
+.product-details-tab-menu-link:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+
+.product-menu-active-link {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.product-details-item {
+    margin-top: 72px;
+    display: inline-block;
+}
+
+.product-slider {
+    width: 570px;
+    height: 651px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+.product-details-pagination {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product-details-text-area {
+    position: relative;
+    float: right;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+
+.product-details-h3 {
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+}
+
+.product-details-hot-deals {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #e53935;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.667;
+    text-align: center;
+    -moz-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+}
+
+.price {
+    font-size: 58px;
+    font-family: 'Myriad Pro Regular';
+    color: rgb(33, 33, 33);
+    line-height: 1.333;
+    text-align: center;
+    -moz-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+}
+
+.product-details-description {
+    width: 510px;
+    height: 252px;
+}
+
+.red-button {
+    display: inline-block;
+    width: 510px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #f44336;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+}
+
+.product-details-description p {
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: 'Myriad Pro Regular';
+    color: rgb(33, 33, 33);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 1.00050919760565, 0, 0);
+}
+
+.product-details-related {
+    margin-top: 245px;
+    margin-bottom: 120px;
+}
+
+.central-column-m-24{
+    margin-left: 24px;
+    margin-right: 24px;
 }
